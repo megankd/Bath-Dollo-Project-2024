@@ -1,0 +1,14 @@
+#NEXUS 
+
+begin assumptions;
+    [!Assumptions saved by PAUP on Mon Dec 11 14:37:58 2023]
+    typeset *untitled = ord:8 22 30 33 41 78 85-86 93 96 109, unord:1-7 9-21 23-29 31-32 34-40 42-77 79-84 87-92 94-95 97-108 110-111;
+    wtset *untitled [EqualWts] = 1:all;
+    exset *untitled [AllIncl] = [none];
+end;
+
+begin PAUP;
+    delete/only;
+    outgroup/only;
+    assume ancstates=standard;
+end;

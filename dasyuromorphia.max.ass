@@ -1,0 +1,21 @@
+#NEXUS 
+
+begin assumptions;
+    [!Assumptions saved by PAUP on Mon Dec 11 11:25:00 2023]
+    typeset *untitled = ord:all;
+    wtset *untitled [EqualWts] = 1:all;
+    exset *untitled [AllIncl] = [none];
+end;
+
+begin assumptions;
+    [!Assumptions saved by PAUP on Mon Dec 11 11:24:21 2023]
+    typeset *untitled = ord:7 9 30 66 69 79 90-92 98-99 107 114-115 121 140 144 150 152 156 169-170, unord:1-4 6 10-11 13-14 16 18-28\5 29 37 46 51 62 70-75 77-78 81 83-84 86-89 94 97 101 108 111 113 116-119 122-124 129 132 134 137 139 142-143 145-146 148 151 153-155 157-161\2 162 167-168, Dollo.up:8 17 19-20 24 31-34 38-45 47-49 54-55 58 60-61 63-65 67-68 76 80 82 85 93 95-96 100 102 105-106 109-110 112 120 125-128 130 133 135-136 138 141 147 149 158 160 163-165 171-173, Dollo.dn:5 12 15 21-22 25-27 35-36 50 52-53 56-57 59 103-104 131 166;
+    wtset *untitled [EqualWts] = 1:all;
+    exset *untitled [AllIncl] = [none];
+end;
+
+begin PAUP;
+    delete/only;
+    outgroup/only;
+    assume ancstates=standard;
+end;

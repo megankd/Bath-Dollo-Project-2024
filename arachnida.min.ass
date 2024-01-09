@@ -1,0 +1,14 @@
+#NEXUS 
+
+begin assumptions;
+    [!Assumptions saved by PAUP on Wed Dec 06 13:44:37 2023]
+    typeset *untitled = unord:all;
+    wtset *untitled [EqualWts] = 1:all;
+    exset *untitled [AllIncl] = [none];
+end;
+
+begin PAUP;
+    delete/only;
+    outgroup/only;
+    assume ancstates=standard;
+end;

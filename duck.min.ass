@@ -1,0 +1,12 @@
+#NEXUS 
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED   =  unord:  1 - 4\3 5 7 9 -  10 12 -  16 18 -  19 22 -  29 32 -  35 38 -  40 42 - 45\3 46 -  49 52 -  53 55 -  66 69 -  73 75 77 - 80\3 81 -  85 87 -  92 94 -  99 101 -  102 104 -  106 108 -  121 124 -  127 129 -  130 132 -  136 139 -  144 146 -  151 153 -  156, ord:  2 -  3 6 8 - 11\3 17 - 20\3 21 30 -  31 36 -  37 41 43 -  44 50 -  51 54 67 -  68 74 76 78 -  79 86 93 100 - 103\3 107 122 -  123 128 - 131\3 137 -  138 145 152 157;    wtset *untitled [EqualWts] = 1:all;
+    exset *untitled [AllIncl] = [none];
+end;
+
+begin PAUP;
+    delete/only;
+    outgroup/only;
+    assume ancstates=standard;
+end;
