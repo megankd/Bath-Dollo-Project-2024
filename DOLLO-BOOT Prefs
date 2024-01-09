@@ -1,0 +1,1 @@
+Number of bootstrap replicates                      : 999Number of random additions in each heuristic search : 50MaxTrees setting (NB: This may compromise searches) : 10000NChuck setting (ChuckScore will be set to 1)        : 10000Maximum number of trees to save from each partition : 500
